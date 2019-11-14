@@ -1,0 +1,6 @@
+---
+applications:
+  - name: uptime
+    memory: 1G
+    random-route: false
+    path: target/uptime-0.0.1-SNAPSHOT.jar
