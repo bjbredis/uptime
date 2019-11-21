@@ -10,7 +10,7 @@ Compile locally and then start the app.
 * Edit the redis connection details in `resources/application.properties` as necessary
 
 ## How to use this?
-Just point your browser to the main url of the app in CF. 
+Just point your browser to the main url of the app in CF. If running locally, the http port will be 8080; if running in PCF it will be port 80.
 
 ### Routes: 
 * `GET /` - main page with a timed ajax request to `/try`
