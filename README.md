@@ -1,6 +1,13 @@
 # Measure uptime of a Redis instance
 
 Meant to measure the time it is unavailable. Push the app to your foundation with a bound redis service.
+`mvn clean package; cf push`
+
+## How can I use this app locally?
+Compile locally and then start the app.
+* `mvn clean package` to compile
+* `java -jar ./target/uptime-0.0.1-SNAPSHOT.jar` to run the app
+* Edit the redis connection details in `resources/application.properties` as necessary
 
 ## How to use this?
 Just point your browser to the main url of the app in CF. 
